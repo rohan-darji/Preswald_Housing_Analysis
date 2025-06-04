@@ -1,0 +1,20 @@
+[project]
+title = "Housing Explorer"
+version = "0.1.0"
+port = 8501
+slug = "housing-app-242701"
+entrypoint = "hello.py"
+
+[branding]
+name = "Housing Explorer"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#32b52d"
+
+[data.housing_csv]
+type = "csv"
+path = "data/Housing.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
